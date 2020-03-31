@@ -11,3 +11,8 @@ service vendor.light-qti /vendor/bin/hw/android.hardware.lights-service.qti
 service vendor.motor /vendor/bin/hw/vendor.xiaomi.hardware.motor@1.0-service
     override
     disabled
+
+on boot
+    # Allow system to modify exposure adjustment state
+    chown system system /sys/devices/platform/soc/soc:qcom,dsi-display/msm_fb_ea_enable
+    chmod 0660 /sys/devices/platform/soc/soc:qcom,dsi-display/msm_fb_ea_enable

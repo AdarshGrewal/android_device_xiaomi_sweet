@@ -32,3 +32,5 @@ allow xiaomi_settings cgroup:file rw_file_perms;
 
 # Allow xiaomi_settings to write to sysfs_thermal
 allow xiaomi_settings sysfs_thermal:file w_file_perms;
+
+allow xiaomi_settings sysfs_dm:file rw_file_perms;
