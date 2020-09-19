@@ -9,6 +9,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Graphics
 PRODUCT_PROPERTY_OVERRIDES += \
+    debug.hwui.renderer=skiavk \
 	debug.sf.disable_backpressure=1 \
 	debug.sf.enable_hwc_vds=1
 
