@@ -154,8 +154,8 @@ void vendor_load_properties() {
     if (region == "GLOBAL") {
         model = "M2101K6G";
         device = "sweet";
-        fingerprint = "Redmi/sweet_eea/sweet:11/RKQ1.200826.002/V12.0.10.0.RKFEUXM:user/release-keys";
-        description = "sweet_eea-user 11 RKQ1.200826.002 V12.0.10.0.RKFEUXM release-keys";
+        fingerprint = "Redmi/sweet_eea/sweet:11/RKQ1.200826.002/V12.5.1.0.RKFEUXM:user/release-keys";
+        description = "sweet_eea-user 11 RKQ1.200826.002 V12.5.1.0.RKFEUXM release-keys";
         marketname = "Redmi Note 10 Pro";
         mod_device = "sweet_eea_global";
     } else if (region == "INDIA") {
