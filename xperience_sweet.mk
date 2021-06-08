@@ -8,10 +8,11 @@
 $(call inherit-product, device/xiaomi/sweet/device.mk)
 
 # Inherit some common Lineage stuff.
-$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
+$(call inherit-product, vendor/xperience/config/common.mk)
+TARGET_BOOT_ANIMATION_RES := 1080
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := aosp_sweet
+PRODUCT_NAME := xperience_sweet
 PRODUCT_DEVICE := sweet
 PRODUCT_BRAND := Redmi
 PRODUCT_MODEL := Redmi Note 10 Pro

@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_sweet.mk
+    $(LOCAL_DIR)/xperience_sweet.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosp_sweet-user \
-    aosp_sweet-userdebug \
-    aosp_sweet-eng
+    xperience_sweet-user \
+    xperience_sweet-userdebug \
+    xperience_sweet-eng
