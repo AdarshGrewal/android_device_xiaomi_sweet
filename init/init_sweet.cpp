@@ -125,14 +125,21 @@ void vendor_load_properties() {
             marketname = "Redmi Note 10 Pro";
             mod_device = "sweetin_in_global";
         } else {
-                model = "M2101K6I";
-                device = "sweetin";
-                fingerprint = "Redmi/sweetinpro/sweetin:11/RKQ1.200826.002/V12.0.6.0.RKFINXM:user/release-keys";
-                description = "sweetinpro-user 11 RKQ1.200826.002 V12.0.6.0.RKFINXM release-keys";
-                marketname = "Redmi Note 10 Pro Max";
-                mod_device = "sweetin_in_global";
+            model = "M2101K6I";
+            device = "sweetin";
+            fingerprint = "Redmi/sweetinpro/sweetin:11/RKQ1.200826.002/V12.0.6.0.RKFINXM:user/release-keys";
+            description = "sweetinpro-user 11 RKQ1.200826.002 V12.0.6.0.RKFINXM release-keys";
+            marketname = "Redmi Note 10 Pro Max";
+            mod_device = "sweetin_in_global";
             }
-        }
+    } else if (region == "JAPAN") {
+        model = "M2101K6R";
+        device = "sweet";
+        fingerprint = "Redmi/sweet_global/sweet:11/RKQ1.200826.002/V12.5.4.0.RKFMIXM:user/release-keys";
+        description = "sweet_global-user 11 RKQ1.200826.002 V12.5.4.0.RKFMIXM release-keys";
+        marketname = "Redmi Note 10 Pro";
+        mod_device = "sweet_global";
+    }
 
     // SafetyNet workaround
     property_override("ro.boot.verifiedbootstate", "green");
